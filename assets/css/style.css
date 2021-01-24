@@ -1,7 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+
+#logo-header
+{
+    padding-right:2%;
+}
+
+#navbar-Title
+{
+    font-family: Rock Salt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
+#navbarNavDropdown li
+{
+    font-family: 'Potta One', cursive;
+    font-size: 20px;
+}
+
+/*---Intro---*/
+
+#intro
+{
+    padding-top: 5%;
+}
+
+#intro h1
+{
+    font-size: 60px;
+    font-family: 'Just Another Hand', cursive;
+}
+
+#intro h2
+{
+    font-size: 60px;
+    font-family: 'Just Another Hand', cursive;
+}
+
 #intro-arrow
 {
     margin-left: auto;
     margin-right: auto;
+}
+
+#intro-arrow p
+{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 50px;
+    margin-bottom: -10%;
+}
+
+#triangle
+{
+      margin-left: auto;
+      margin-right: auto;
+      width: 0;
+      height: 0;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      border-top: 50px solid #111111;
 }
 
 #waifu-img
@@ -9,13 +68,41 @@
     height: 100%;
     width: 100%;
 }
-
-#myself-img {
-    height: 100%;
-    width: 100%;
+/*---myself---*/
+#myself
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-#protect {
+#myself-img 
+{
+    height: 500px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
+
+#myself p
+{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 40px;
+}
+/*----------------*/
+#protect 
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#protect p
+{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 40px;
+}
+/*----------------*/
+#CV h3
+{
+background-color: #808080;
+}
+/*----------------*/
