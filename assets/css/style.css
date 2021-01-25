@@ -77,16 +77,17 @@
 
 #myself-img 
 {
-    height: 500px;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    background-image: url('../img/me.jpg');
+    height: 600px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #myself p
 {
     font-family: 'Just Another Hand', cursive;
-    font-size: 40px;
+    font-size: 50px;
 }
 /*----------------*/
 #protect 
