@@ -1,4 +1,4 @@
-document.getElementById('CV').style.display = "none";
+//document.getElementById('CV').style.display = "none";
 
 function Check() {
     var stock_value = document.getElementById('text-submit').value;

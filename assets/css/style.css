@@ -77,11 +77,16 @@
 
 #myself-img 
 {
-    background-image: url('../img/me.jpg');
+    margin-left: auto;
+    margin-right: auto;
     height: 600px;
+}
 
-    background-size: contain;
-    background-repeat: no-repeat;
+#myself-img img 
+{
+    width: 100%;
+    height: 100%;
+    box-shadow: -10px 5px 0 #000000;
 }
 
 #myself p
@@ -104,6 +109,6 @@
 /*----------------*/
 #CV h3
 {
-background-color: #808080;
+background-color: #969696;
 }
 /*----------------*/
