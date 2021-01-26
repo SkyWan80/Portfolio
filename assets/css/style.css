@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
 
+header
+{
+    width: 100%;
+}
+
 #logo-header
 {
     padding-right:2%;
@@ -84,7 +89,7 @@
 
 #myself-img img 
 {
-    width: 100%;
+    width: 400px;
     height: 100%;
     box-shadow: -10px 5px 0 #000000;
 }
@@ -107,8 +112,29 @@
     font-size: 40px;
 }
 /*----------------*/
-#CV h3
+
+#CV svg
 {
-background-color: #969696;
+    height: 40px;
+    width: 40px;
+}
+
+#CV h3 
+{
+    background-color: #333333;
+    text-shadow: 3px 3px 0 #000000;
+    color: white;
+    font-family: 'Potta One', cursive;
+}
+
+#CV span
+{
+    color: #242de4;
+}
+
+#CV p,li
+{
+    font-size: 30px;
+    font-family: 'Just Another Hand', cursive;
 }
 /*----------------*/
