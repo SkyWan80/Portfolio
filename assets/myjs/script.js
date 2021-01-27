@@ -4,7 +4,7 @@ document.getElementById('project').style.display = "none";
 function Check() {
     var stock_value = document.getElementById('text-submit').value;
 
-    if (stock_value == 'unmdp') {
+    if (stock_value == 'thankyou') {
         document.getElementById('CV').style.display = 'block';
         document.getElementById('project').style.display = 'block';
         document.getElementById('protect').style.display = 'none';

@@ -32,7 +32,14 @@ header
     padding-top: 5%;
 }
 
-#intro h1
+#intro_text_1 /*remove placeholder*/
+{
+    background-image:url("../img/projectbg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#intro h1 
 {
     font-size: 60px;
     font-family: 'Just Another Hand', cursive;
@@ -80,7 +87,8 @@ header
     padding-bottom: 5%;
 }
 
-#myself-img {
+#myself-img 
+{
     margin-left: auto;
     margin-right: auto;
     height: 600px;
@@ -95,12 +103,19 @@ header
     box-shadow: -10px 5px 0 #000000;
 }
 
+#intro_text_2 p /*remove placeholder*/
+{
+    background-image: url("../img/projectbg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 #myself p
 {
     font-family: 'Just Another Hand', cursive;
     font-size: 50px;
 }
-/*----------------*/
+/*---protection---*/
 #protect 
 {
     margin-left: auto;
@@ -112,8 +127,7 @@ header
     font-family: 'Just Another Hand', cursive;
     font-size: 40px;
 }
-/*----------------*/
-
+/*---CV---*/
 #CV svg
 {
     height: 40px;
@@ -144,7 +158,7 @@ header
     font-size: 30px;
     font-family: 'Just Another Hand', cursive;
 }
-/*----------------*/
+/*---project---*/
 #project h3
 {
     font-size: 60px;
@@ -160,6 +174,13 @@ header
     margin-right: auto;
 }
 
+#project_bg
+{
+    background-image:url("../img/projectbg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 #project p,
 #project a
 {
@@ -167,12 +188,18 @@ header
     font-size: 40px;
     text-align: center;
 }
+#text_color_1,
+#text_color_2,
+#text_color_3
+{
+    text-shadow: 2px 2px 0px #000000
+}
 
 #carousel
 {
 }
 
-/*----------------*/
+/*---footer---*/
 footer
 {
     font-family: 'Just Another Hand', cursive;
@@ -182,4 +209,22 @@ footer
 {
     height:100px;
     width:100px;
+}
+
+/*---media queries---*/
+@media screen and (max-width: 640px) {
+    #project h3
+    {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #navbar-Title 
+    {
+        font-size: 20px;
+    }
+    #CV h3 {
+        font-size: 20px;
+    }
 }
