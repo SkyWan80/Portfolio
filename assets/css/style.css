@@ -219,10 +219,18 @@ footer
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 407px) {
     #navbar-Title 
     {
         font-size: 20px;
+    }
+    #myself-img
+    {
+        margin-bottom: -40%;
+    }
+    #myself-img img {
+        width: 60%;
+        height: 70%;
     }
     #CV h3 {
         font-size: 20px;
