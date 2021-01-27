@@ -33,12 +33,9 @@
 <div class="container-fluid">
     <!--intro-->
     <div class="row" id="intro">
-        <div class="col-md-6 col-12 text-md-right text-center" id="intro_text_1">
+        <div class="col-12 text-center" id="intro_text_1">
             <h1>Bonjour et bienvenue sur mon Portfolio !</h1>
             <h2>je vous souhaite une bonne visite !</h2>
-        </div>
-        <div class="col-md-6 col-12" id="blob-img">
-            <img src="assets/img/blob0.png">
         </div>
     </div>
     <!--présentation-->
@@ -48,9 +45,11 @@
                 <img src="assets/img/me.jpg">
             </div>
         </div>
-        <div class="col-md-6 col-12 text-center text-md-left" id="intro_text_2">
-            <p>Je me nomme William Warnet.<br> j'ai 21 ans, jeune développeur avec quelques atouts de designeur,
-            <br>vous trouverez si dessous mon CV et mes projets !</p>
+        <div class="col-md-6 col-12 text-center" id="intro_text_2">
+            <p>
+                Je me nomme William Warnet.<br> j'ai 21 ans, jeune développeur avec quelques atouts de designeur,
+                <br>vous trouverez si dessous mon CV et mes projets !
+            </p>
         </div>
         <div id="intro-arrow" class="align-content-center justify-content-center">
             <p>Continuer :</p>
@@ -58,12 +57,15 @@
         </div>
     </div>
     <!--protection-->
-    <div class="col-12 text-center" id="protect">
-        <p>pour éviter les spams veuillez entrer le code cacher dans le site</p>
-        <form>
+    <div class="row text-center" id="protect">
+        <p class="col-12">pour éviter les spams veuillez entrer le code cacher dans le site</p>
+        <form class="col-md-6 col-12">
             <input type="text" id="text-submit" value="entrez le code secret" onfocus="this.value=''" />
             <input type="button" class="btn btn-danger" id="submit" value="Valider !" onclick="Check()" />
         </form>
+        <div class="col-md-6 col-12" id="blob-img">
+            <img src="assets/img/blob0.png">
+        </div>
         <p id="HiddenText" class="text-center col-12"></p>
     </div>
     <!--CV-->
@@ -84,7 +86,7 @@
                 <span>Anglais : Lu et parlé couramment</span>
             </p>
             <div class="col-md-6 col-12" id="blob-img">
-                <img src="assets/img/blob2.png">
+                <img src="assets/img/blob4.png">
             </div>
         </div>
         <h3 class="col-12 text-center my-3">
@@ -145,7 +147,7 @@
         <h3 class="col-12 text-center my-3">Mes projets :</h3>
         <div class="col-12" id="project_line"></div>
         <div id="project_bg">
-            <p class="col-12 text-center"><br><span id="text_color_1" class="text-white">Un site vitrine d'un jeux vidéo pour un TP d'une durée de 3 jours :</span></p>
+            <p class="col-12 text-center"><br>Un site vitrine d'un jeux vidéo pour un TP d'une durée de 3 jours :</p>
             <div id="carousel" class="col-12 justify-content-center align-items-center text-center">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner col-12">
@@ -172,19 +174,19 @@
             <div class="col-12 text-center">
                 <a href="#project" onclick="Alert()">lien du site</a>
                 <p>
-                    <span id="text_color_2" class="text-white">le site a était réalisé en 3 jours avec une équipe de 3 personnes (moi y compris),</span>
-                    <br>l'objectif <span id="text_color_3" class="text-white">était de créer un site 100% résponsive tout en étant en équipe.</span>
-</p>
+                    le site a était réalisé en 3 jours avec une équipe de 3 personnes (moi y compris),
+                    <br>l'objectif était de créer un site 100% résponsive tout en étant en équipe.
+                </p>
             </div>
         </div>
-        </div>
     </div>
+</div>
 <footer>
     <div class="container-fluid">
         <div class="row">
             <h3 class="col-6">Portfolio de William Warnet © 2021</h3>
-            <div class="col-6" id="blob-img">
-                <img src="assets/img/blob3.png">
+            <div class="col-6" id="blob-img-footer">
+                <img src="assets/img/blob1.png">
             </div>
         </div>
     </div>

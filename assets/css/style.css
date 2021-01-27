@@ -32,15 +32,9 @@ header
     padding-top: 5%;
 }
 
-#intro_text_1 /*remove placeholder*/
-{
-    background-image:url("../img/projectbg.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
 #intro h1 
 {
+    margin-top: 10%;
     font-size: 60px;
     font-family: 'Just Another Hand', cursive;
 }
@@ -49,6 +43,7 @@ header
 {
     font-size: 60px;
     font-family: 'Just Another Hand', cursive;
+    margin-bottom: 10%;
 }
 
 #intro-arrow
@@ -77,8 +72,14 @@ header
 
 #blob-img
 {
+    height: 500px;
+}
+
+#blob-img img {
     height: 100%;
+    max-height: 500px;
     width: 100%;
+    max-width: 500px;
 }
 /*---myself---*/
 #myself
@@ -103,15 +104,16 @@ header
     box-shadow: -10px 5px 0 #000000;
 }
 
-#intro_text_2 p /*remove placeholder*/
+#intro_text_2
 {
-    background-image: url("../img/projectbg.png");
+    background-image: url("../img/bg_text.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 #myself p
 {
+    margin-top: 15%;
     font-family: 'Just Another Hand', cursive;
     font-size: 50px;
 }
@@ -126,6 +128,18 @@ header
 {
     font-family: 'Just Another Hand', cursive;
     font-size: 40px;
+}
+
+#protect form
+{
+    margin-top:15%;
+}
+
+#intro_text_1
+{
+    background-image:url("../img/bg_text.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 /*---CV---*/
 #CV svg
@@ -181,22 +195,24 @@ header
     background-size: 100% 100%;
 }
 
-#project p,
+#project p
+{
+    font-family: 'Just Another Hand', cursive;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 0px #000000
+}
+
 #project a
 {
     font-family: 'Just Another Hand', cursive;
     font-size: 40px;
     text-align: center;
-}
-#text_color_1,
-#text_color_2,
-#text_color_3
-{
     text-shadow: 2px 2px 0px #000000
 }
 
-#carousel
-{
+#carousel {
 }
 
 /*---footer---*/
@@ -205,9 +221,16 @@ footer
     font-family: 'Just Another Hand', cursive;
     font-size: 100px;
 }
-#blob-img3
+
+#blob-img-footer
 {
-    height:100px;
+    height: 100px;
+}
+
+#blob-img-footer img
+{
+    float:right;
+    height:100%;
     width:100px;
 }
 
