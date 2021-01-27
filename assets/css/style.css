@@ -68,7 +68,7 @@ header
       border-top: 50px solid #111111;
 }
 
-#waifu-img
+#blob-img
 {
     height: 100%;
     width: 100%;
@@ -80,8 +80,7 @@ header
     padding-bottom: 5%;
 }
 
-#myself-img 
-{
+#myself-img {
     margin-left: auto;
     margin-right: auto;
     height: 600px;
@@ -89,8 +88,8 @@ header
 
 #myself-img img 
 {
-    width: 400px;
-    height: 100%;
+    width: 60%;
+    height: 80%;
     margin-left: auto;
     margin-right: auto;
     box-shadow: -10px 5px 0 #000000;
@@ -134,9 +133,53 @@ header
     color: #242de4;
 }
 
+#CV abbr
+{
+    text-decoration: none;
+    color: #ff0000;
+}
+
 #CV p,li
 {
     font-size: 30px;
     font-family: 'Just Another Hand', cursive;
 }
 /*----------------*/
+#project h3
+{
+    font-size: 60px;
+    font-family: 'Potta One', cursive;
+}
+
+#project_line
+{
+    height:10px;
+    width: 80%;
+    background-color: #111111;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#project p,
+#project a
+{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+#carousel
+{
+}
+
+/*----------------*/
+footer
+{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 100px;
+}
+#blob-img3
+{
+    height:100px;
+    width:100px;
+}
