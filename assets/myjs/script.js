@@ -1,5 +1,6 @@
 document.getElementById('CV').style.display = "none";
 document.getElementById('project').style.display = "none";
+$(document).ready(function () { $('body').find('img[alt$="www.000webhost.com"]').remove(); });
 
 function Check() {
     var stock_value = document.getElementById('text-submit').value;
