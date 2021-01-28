@@ -32,11 +32,20 @@ header
     padding-top: 5%;
 }
 
+#intro_text_1 
+{
+    background-image: url("../img/bg_text.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 #intro h1 
 {
     margin-top: 10%;
     font-size: 60px;
     font-family: 'Just Another Hand', cursive;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #intro h2
@@ -44,6 +53,8 @@ header
     font-size: 60px;
     font-family: 'Just Another Hand', cursive;
     margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #intro-arrow
@@ -111,11 +122,13 @@ header
     background-size: 100% 100%;
 }
 
-#myself p
+#intro_text_2 p
 {
     margin-top: 15%;
     font-family: 'Just Another Hand', cursive;
     font-size: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 /*---protection---*/
 #protect 
@@ -135,12 +148,6 @@ header
     margin-top:15%;
 }
 
-#intro_text_1
-{
-    background-image:url("../img/bg_text.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
 /*---CV---*/
 #CV svg
 {
@@ -235,11 +242,71 @@ footer
 }
 
 /*---media queries---*/
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1920px) {
+    #intro h1
+    {
+        font-size: 80px;
+    }
+    #intro h2
+    {
+        font-size: 70px;
+    }
+    #myself-img img 
+    {
+        width: 50%;
+        height: 100%;
+    }
+    #CV h3
+    {
+        font-size: 60px;
+    }
+    #CV p,
+    #CV li
+    {
+        font-size: 40px;
+    }
+    #project p
+    {
+        font-size: 50px;
+    }
+    footer h3
+    {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    #intro h1 
+    {
+        font-size: 60px;
+    }
+
+    #intro h2 
+    {
+        font-size: 60px;
+    }
+    #CV h3
+    {
+        font-size: 40px;
+    }
+    #CV p,
+    #CV li 
+    {
+        font-size: 30px;
+    }
+    #project p 
+    {
+        font-size: 40px;
+    }
     #project h3
     {
         font-size: 40px;
     }
+    footer h3 
+    {
+        font-size: 40px;
+    }
+
 }
 
 @media screen and (max-width: 407px) {
@@ -251,11 +318,23 @@ footer
     {
         margin-bottom: -40%;
     }
-    #myself-img img {
+    #myself-img img 
+    {
         width: 60%;
         height: 70%;
     }
-    #CV h3 {
+    #CV h3 
+    {
         font-size: 20px;
+    }
+    footer h3 
+    {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 280px) {
+    #navbar-Title 
+    {
+        font-size: 15px;
     }
 }
