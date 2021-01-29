@@ -81,12 +81,12 @@ header
       border-top: 50px solid #111111;
 }
 
-#blob-img
+#blob-img-1
 {
     height: 500px;
 }
 
-#blob-img img {
+#blob-img-1 img {
     height: 100%;
     max-height: 500px;
     width: 100%;
@@ -179,6 +179,18 @@ header
 {
     font-size: 30px;
     font-family: 'Just Another Hand', cursive;
+}
+
+#blob-img-2
+{
+    height: 500px;
+}
+
+#blob-img-2 img {
+    height: 100%;
+    max-height: 500px;
+    width: 100%;
+    max-width: 500px;
 }
 /*---project---*/
 #project h3
