@@ -9,7 +9,7 @@ function Check() {
         document.getElementById('CV').style.display = 'block';
         document.getElementById('project').style.display = 'block';
         document.getElementById('protect').style.display = 'none';
-        document.getElementById('blob-img').style.display = 'none';
+        document.getElementById('blob-img-1').style.display = 'none';
     } else {
         document.getElementById('HiddenText').innerHTML = 'ERREUR veuillez r\u00e9essayer.';
     }
