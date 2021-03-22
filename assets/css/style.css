@@ -266,7 +266,7 @@ footer
     }
     #myself-img img 
     {
-        width: 50%;
+        width: 60%;
         height: 100%;
     }
     #CV h3
@@ -285,6 +285,14 @@ footer
     footer h3
     {
         font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #myself-img img 
+    {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -321,6 +329,19 @@ footer
     }
 
 }
+
+@media screen and (max-width: 767px) {
+    #myself-img img 
+    {
+        width: 60%;
+        height: 70%;
+    }
+        #myself-img
+    {
+        margin-bottom: -20%;
+    }
+}
+
 
 @media screen and (max-width: 407px) {
     #navbar-Title 
