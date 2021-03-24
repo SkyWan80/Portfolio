@@ -232,6 +232,14 @@ header
     text-shadow: 2px 2px 0px #000000
 }
 
+#project2_bg
+{
+    background-image: url("../img/projectbg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
 #carousel {
 }
 
@@ -240,18 +248,6 @@ footer
 {
     font-family: 'Just Another Hand', cursive;
     font-size: 100px;
-}
-
-#blob-img-footer
-{
-    height: 100px;
-}
-
-#blob-img-footer img
-{
-    float:right;
-    height:100%;
-    width:100px;
 }
 
 /*---media queries---*/
